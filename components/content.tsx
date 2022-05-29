@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react'
 import LiteYouTubeEmbed from 'react-lite-youtube-embed'
 import { GiRollingDices } from "react-icons/gi"
+import Image from "next/image"
+import border2 from "../public/border2.png"
 
 
 const Content =() => {
@@ -31,19 +33,29 @@ const Content =() => {
 
   return (
     
-    <div className='embed min-w-30% max-w-90%'>
-      <div className="collapse pt-3 w-4/6 m-auto">
-  <input type="checkbox" /> 
-  <div className="collapse-title btn  text-sm font-sm">
-    Download MP3 320kbps
-  </div>
-  <div className="collapse-content"> 
-  <iframe src={`https://yt-download.org/api/button/mp3?url=${data[0]['link']}`} style={{ height: "200px", backgroundColor: 'transparent'}} width={"100%"} className='download' allowTransparency={true} scrolling="no" frameBorder={0}></iframe>
-  </div>
-  
-</div>
+    <div className="embed min-w-30% max-w-90% ">
+
+{/*  Download Button */}
+
+      {/* <div className="collapse pt-3 w-4/6 m-auto">
+        <input type="checkbox" /> 
+      <div className="collapse-title btn  text-sm font-sm">
+        Download MP3 320kbps
+      </div>
+      <div className="collapse-content"> 
+        <iframe src={`https://yt-download.org/api/button/mp3?url=${data[0]['link']}`} style={{ height: "200px", backgroundColor: 'transparent'}} width={"100%"} className='download' allowTransparency={true} scrolling="no" frameBorder={0}></iframe>
+      </div>
+
+
+</div> */}
+
+
+    
+ 
     <div className='mt-3 w-5/6 m-auto width'>
-    <LiteYouTubeEmbed 
+       {/*  beat player */}
+   
+    <LiteYouTubeEmbed
         id={data[0]['id']} // Default none, id of the video or playlist
         adNetwork={true} // Default true, to preconnect or not to doubleclick addresses called by YouTube iframe (the adnetwork from Google)
         params="" // any params you want to pass to the URL, assume we already had '&' and pass your parameters string
@@ -53,6 +65,9 @@ const Content =() => {
         title="looper" // a11y, always provide a title for iFrames: https://dequeuniversity.com/tips/provide-iframe-titles Help the web be accessible ;)
         noCookie={true} //Default false, connect to YouTube via the Privacy-Enhanced Mode using https://www.youtube-nocookie.com
       />
+
+    
+
 
     </div>
 
@@ -86,52 +101,6 @@ const Content =() => {
         </div> */}
 
 
-      </div>
-
-      <div>
-
-         {/* <Link href="/og">
-          <button>Download</button>
-        </Link> */}
-          
-
-          {/* <div className="dropdown">
-            <label tabIndex={0} className="btn m-1">Download</label>
-             <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-56">
-             
-             </ul>
-          </div> */}
-
-          {/* <div tabIndex={0} className="collapse collapse-arrow border border-base-800 bg-base-100 rounded-box">
-  <div className="collapse-title text-xl font-medium">
-    Download
-  </div>
-  <div className="collapse-content"> 
-  <iframe src={`https://yt-download.org/api/button/mp3?url=${data[0]['link']}`} style={{ height: "200px", backgroundColor: 'transparent'}} width={"100%"} className='download' allowTransparency={true} scrolling="no" frameBorder={0}></iframe>
-  </div>
-</div> */}
-        
-
-{/* <div className="collapse pt-4">
-  <input type="checkbox" className="peer" /> 
-  <div className="collapse-title bg-secondary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
-    Download
-  </div>
-  <div className="collapse-content bg-secondary text-primary-content peer-checked:bg-secondary bold peer-checked:text-secondary-content"> 
-
-  </div>
-</div> */}
-
-
-
-          {/* <div className="flex flex-col w-full">
-  <div className="grid h-20 card bg-base-300 rounded-box place-items-center">content</div> 
-  <div className="divider"></div> 
-  <div className="grid h-20 card bg-base-300 rounded-box place-items-center">content</div>
-</div> */}
-
-
-        
       </div>
 
     </div>
