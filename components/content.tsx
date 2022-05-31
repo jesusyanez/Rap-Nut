@@ -1,8 +1,10 @@
 import { useEffect, useState } from 'react'
 import LiteYouTubeEmbed from 'react-lite-youtube-embed'
 import { GiRollingDices } from "react-icons/gi"
+import { BiSkipNext, BiShuffle } from "react-icons/bi"
 import Image from "next/image"
 import border2 from "../public/border2.png"
+import slot from "../public/buttons/tap.png"
 
 
 const Content =() => {
@@ -52,7 +54,7 @@ const Content =() => {
 
     
  
-    <div className='mt-3 w-5/6 m-auto width'>
+    <div className='mt-3 w-5/6 m-auto width shadow-xl'>
        {/*  beat player */}
    
     <LiteYouTubeEmbed
@@ -71,20 +73,34 @@ const Content =() => {
 
     </div>
 
-      <div className='inline-flex items-center justify-between '>
+      <div className='inline-flex items-center justify-between mt-5 '>
       
         <div>
-          <div className='pr-5 mt-5 text-2xl'>
+          <div className='pr-5 mt-8 text-2xl'>
             {/* <button className="btn btn-lg btn-primary">Button</button> */}
-            <button className='btn btn-outline btn-lg btn-primary text-lg' onClick={() => handleClick('')}><GiRollingDices 
-            className='text-5xl'/></button>
+            <button className='btn  btn-lg btn-outline btn-primary shadow-xl text-lg' onClick={() => handleClick('')}><GiRollingDices className='text-6xl'/></button>
+            {/* <button className='btn  btn-lg btn-ghost text-5xl' onClick={() => handleClick('')}>
+            <Image 
+                src={slot}
+                height='50%'
+                width='50%'
+                alt='logo'
+            />
+            </button> */}
           </div>
         </div>
-
-        <div className='info'>
+        <div className="card bg-black shadow-xl text-outline-white">
+  <div className="card-body">
+    <h2 className="card-title text-white text-m font-outline-white outline-4">{data[0]['title']}</h2>
+    <div className='info text-white'>
+          <p className='text-m'>Prod by. {data[0]['channel']['name']}</p>
+        </div>
+  </div>
+</div>
+        {/* <div className='info'>
           <p>{data[0]['title']}</p>
           <p className='smalltext'>Prod by. {data[0]['channel']['name']}</p>
-        </div>
+        </div> */}
 
 
       

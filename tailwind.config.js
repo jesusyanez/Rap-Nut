@@ -37,7 +37,7 @@ module.exports = {
         
 
 
-"success": "#36D399",
+"success": "#ffffff",
         
 
 

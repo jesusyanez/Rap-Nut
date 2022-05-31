@@ -18,7 +18,7 @@ const Navbar =() => {
             />
     </a>
   </div>
-  <div className="flex-none">
+  {/* <div className="flex-none">
     <ul className="menu menu-horizontal text-md p-0">
     <li tabIndex={0}>
         <a>
@@ -64,22 +64,10 @@ const Navbar =() => {
           <li><a>Indie</a></li>
         </ul>
       </li>
-      {/* <li><a>About</a></li> */}
-      {/* <li><a>Trap</a></li>
-      <li><a>90s</a></li>
-      <li><a>Indie</a></li>
-      <li><a>Latin Trap</a></li> */}
-
-{/*       
-      <div className='pr-5  text-2xl mt-1'>
-            <button className="btn btn-lg btn-primary">Button</button>
-            <button className='btn btn-outline btn-primary text-lg' onClick={() => handleClick('')}><GiRollingDices 
-            className='text-3xl'/></button>
-          </div> */}
 
     </ul>
     
-  </div>
+  </div> */}
 
 </div>
       </div>
