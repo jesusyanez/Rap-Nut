@@ -6,7 +6,8 @@ import logo from "../public/logo.png"
 const Navbar =() => {
     return (
       <div>
-       <div className="navbar bg-[url('../public/block1.png')] bg-center">
+       <div className="navbar bg-transparent">
+       {/* <div className="navbar bg-[url('../public/block1.png')] bg-center"> */}
   <div className="flex-1">
     <a className="btn btn-ghost normal-case text-xl">
     <Image 
