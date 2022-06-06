@@ -20,7 +20,7 @@ const Home: NextPage = () => {
       <div className="sticky top-0 z-50 blue'">
         <Navbar />
       </div>
-      <div className='  max-w-7xl mx-auto' >
+      <div className='  max-w-7xl mx-auto md:max-w-2xl lg:max-w-2xl' >
       <Content />
       </div>
       {/* <div className='sticky'>
