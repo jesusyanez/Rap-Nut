@@ -10,21 +10,23 @@ import Navbar from '../components/navbar'
 
 const Home: NextPage = () => {
   return (
-    <div className="filter grayscale bg-[url('https://media2.giphy.com/media/FlodpfQUBSp20/giphy.gif?cid=ecf05e47fzgmnkrft6gwnr4yb0cr5wef8a0uuxu9cekbc5ui&rid=giphy.gif&ct=g')] h-screen bg-repeat-round">
+    <div className="bg-black">
       <Head>
         <title>Loophole</title>
         <meta name="description" content="Music for the maker" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <div className="sticky top-0 z-50 blue">
+      <div className="sticky top-0 z-50 blue'">
         <Navbar />
       </div>
-      <div className=' justify-between p-5 max-w-7xl mx-auto' >
+      <div className='  max-w-7xl mx-auto' >
       <Content />
       </div>
+      {/* <div className='sticky'>
+        <Footer />
+      </div> */}
 
-      <Footer />
     </div>
   )
 }

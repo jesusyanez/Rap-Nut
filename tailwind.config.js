@@ -17,7 +17,7 @@ module.exports = {
         
 
 
-"secondary": "#d9f99d",
+"secondary": "#000000",
         
 
 

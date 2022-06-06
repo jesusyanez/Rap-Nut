@@ -50,7 +50,7 @@ a {
 .yt-lite::after {
   content: "";
   display: block;
-  padding-bottom: calc(100% / (16 / 9));
+  padding-bottom: calc(100% / (9 / 10));
 }
 .yt-lite > iframe {
   /* border:30px solid transparent;
@@ -105,3 +105,4 @@ a {
 .ok {
   background-image: url("../public/border2.png");
 }
+
