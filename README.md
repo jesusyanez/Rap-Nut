@@ -1,16 +1,15 @@
 ## About
 This is a [Next.js](https://nextjs.org/) start template that includes [TypeScript](https://github.com/microsoft/TypeScript), [Tailwind CSS](https://tailwindcss.com/), and [Daisy UI](https://daisyui.com/). <br />I could not find one that was minimal & clean, so I made one.
 <br />
-## Installed + Setup
-
-✅  Next.js <br />
-✅  TypeScript <br />
-✅  Tailwind CSS <br />
-✅  Daisy UI<br />
+## Tech Stack
+- [x]  Node <br />
+- [x]  Express <br />
+- [x]  React <br />
+- [x]  Next.js <br />
+- [x] Tailwind CSS <br />
+- [x] daisyUI<br />
 ## Install
 ```bash
-git clone https://github.com/jesusyanez/nextjs-typescript-daisyui-starter.git
-cd nextjs-typescript-daisyui-starter
 npm install
 ```
 ## Getting Started
