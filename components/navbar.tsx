@@ -9,12 +9,13 @@ const Navbar =() => {
        <div className="navbar bg-neutral">
   <div className="flex-1">
     <a className="btn btn-ghost normal-case text-xl">
-    <Image 
+    {/* <Image 
                 src={logo}
                 height='50rem'
                 width='160rem'
                 alt='logo'
-            />
+            /> */}
+            Random Beat Generator
     </a>
   </div>
   <div className="flex-none">
