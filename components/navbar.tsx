@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { GiRollingDices } from "react-icons/gi";
+import { BsFillSpeakerFill } from "react-icons/bs";
 import logo from "../public/logo.png"
 
 const Navbar =() => {
@@ -9,20 +9,15 @@ const Navbar =() => {
        <div className="navbar bg-neutral">
   <div className="flex-1">
     <a className="btn btn-ghost normal-case text-xl">
-    {/* <Image 
-                src={logo}
-                height='50rem'
-                width='160rem'
-                alt='logo'
-            /> */}
-            Random Beat Generator
+            <BsFillSpeakerFill className="text-2xl"/> 
+            <p className="ml-2">Rap Nut</p>
     </a>
   </div>
   <div className="flex-none">
     <ul className="menu menu-horizontal text-md p-0">
     <li tabIndex={0}>
         <a>
-          Artists
+          Beats
           <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
         </a>
         <ul className="p-2 bg-base-100">
@@ -39,7 +34,7 @@ const Navbar =() => {
       </li>
       <li tabIndex={0}>
         <a>
-          Genres
+          Drumkits
           <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
         </a>
         <ul className="p-2 bg-base-100">
@@ -51,7 +46,7 @@ const Navbar =() => {
         </ul>
       </li>
 
-      <li className="mr-3" tabIndex={0}>
+      {/* <li className="mr-3" tabIndex={0}>
         <a>
           Mood
           <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
@@ -63,7 +58,7 @@ const Navbar =() => {
           
           <li><a>Indie</a></li>
         </ul>
-      </li>
+      </li> */}
       {/* <li><a>About</a></li> */}
       {/* <li><a>Trap</a></li>
       <li><a>90s</a></li>

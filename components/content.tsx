@@ -31,8 +31,8 @@ const Content =() => {
 
   return (
     
-    <div className='flex width h-full outline-dotted outline-cyan-100'>
-      <div className='w-1/2 h-full m-auto outline-dashed outline-red-700'>
+    <div className='flex width h-full'>
+      <div className='w-1/2 h-full m-auto'>
       <div className='mt-3 w-4/5 m-auto width'>
     <LiteYouTubeEmbed 
         id={data[0]['id']} // Default none, id of the video or playlist
@@ -64,7 +64,7 @@ const Content =() => {
       </div>
       </div>
 
-      <div className='w-1/2 outline-dashed outline-lime-600'>
+      <div className='w-1/2'>
 
        <div className="collapse pt-3 w-4/6 m-auto">
   <input type="checkbox" /> 
@@ -76,8 +76,8 @@ const Content =() => {
   </div>
   
 </div>
-
-  <textarea className="textarea textarea-bordered  mt-3 h-4/6 w-full" placeholder="Write here"></textarea>
+    
+  <textarea className="textarea textarea-bordered   mt-3 h-4/6 w-full" placeholder="Notes"></textarea>
 
 
 
