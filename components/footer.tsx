@@ -7,7 +7,8 @@ const Footer =() => {
 <footer className="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
   <div className="items-center grid-flow-col">
     <BsFillSpeakerFill className="text-2xl"/>
-    <p>Rap Nut <br />Created by J. Yanez</p>
+    
+    <p>Rap Nut <br /><a href="https://twitter.com/_aesap">Made by @_aesap</a></p>
   </div> 
   <div className="md:place-self-center md:justify-self-end">
     <div className="text-2xl grid grid-flow-col gap-4">

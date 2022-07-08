@@ -69,7 +69,7 @@ const Content =() => {
        <div className="collapse pt-3 w-4/6 m-auto">
   <input type="checkbox" /> 
   <div className="collapse-title btn  text-sm font-sm">
-    Download MP3
+    Download MP3 -320 kbps-
   </div>
   <div className="collapse-content"> 
   <iframe src={`https://yt-download.org/api/button/mp3?url=${data[0]['link']}`} style={{ height: "200px", backgroundColor: 'transparent'}} width={"100%"} className='download' allowTransparency={true} scrolling="no" frameBorder={0}></iframe>
@@ -77,15 +77,11 @@ const Content =() => {
   
 </div>
     
-  <textarea className="textarea textarea-bordered   mt-3 h-4/6 w-full" placeholder="Notes"></textarea>
+  <textarea className="textarea textarea-bordered   mt-3 h-4/6 w-full" placeholder="Notepad"></textarea>
 
 
 
       </div>
-     
-
-      
-
     </div>
   )
 }
