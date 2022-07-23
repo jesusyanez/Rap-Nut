@@ -8,7 +8,7 @@ const Footer =() => {
   <div className="items-center grid-flow-col">
     <BsFillSpeakerFill className="text-2xl"/>
     
-    <p>Rap Nut <br /><a href="https://twitter.com/_aesap">Created by J. Yanez</a></p>
+    <p>Rap Geek <br /><a href="https://twitter.com/_aesap">Created by J. Yanez</a></p>
   </div> 
   <div className="md:place-self-center md:justify-self-end">
     <div className="text-2xl grid grid-flow-col gap-4">
