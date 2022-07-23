@@ -10,7 +10,7 @@ const Navbar =() => {
   <div className="flex-1">
     <a className="btn btn-ghost normal-case text-xl">
             <BsFillSpeakerFill className="text-2xl"/> 
-            <p className="ml-2">Rap Nut</p>
+            <p className="ml-2">Rap Geek</p>
     </a>
   </div>
   <div className="flex-none">
