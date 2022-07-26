@@ -7,13 +7,15 @@ const Navbar =() => {
     return (
       <div>
        <div className="navbar bg-neutral">
-  <div className="flex-1">
-    <a href='/' className="btn btn-ghost normal-case text-2xl">
-            <BsFillSpeakerFill className="text-2xl"/> 
-            <p className="ml-2">Rap Geek</p>
-    </a>
-  </div>
-</div>
+          <div className="flex-1">
+            <Link href="/">
+              <a className="btn btn-ghost normal-case text-2xl">
+                <BsFillSpeakerFill className="text-2xl"/> 
+                <p className="ml-2">Rap Geek</p>
+              </a>
+            </Link>
+          </div>
+        </div>
       </div>
     );
   }
