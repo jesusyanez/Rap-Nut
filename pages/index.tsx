@@ -22,7 +22,7 @@ const Home: NextPage = () => {
       <div className="sticky top-0 z-50 blue">
         <Navbar />
       </div>
-      <div className='h-full p-5' >
+      <div className='h-full pt-5' >
       <Content />
       </div>
 
