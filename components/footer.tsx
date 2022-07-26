@@ -8,7 +8,7 @@ const Footer =() => {
         <footer className="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
           <div className="items-center grid-flow-col">
             <BsFillSpeakerFill className="text-2xl"/>
-            <p>Rap Geek - YouTube Rap Beat Randomizer <br /><a href="https://twitter.com/_aesap">Made by Jesus Yanez</a></p>
+            <p>Rap Geek - YouTube Type Beat Randomizer <br /><a href="https://twitter.com/_aesap">Made by Jesus Yanez</a></p>
           </div> 
         </footer>
       </div>

@@ -10,7 +10,7 @@ const Navbar =() => {
           <div className="flex-1">
             <Link href="/">
               <a className="btn btn-ghost normal-case text-2xl">
-                <BsFillSpeakerFill className="text-2xl"/> 
+                <BsFillSpeakerFill className="text-4xl"/> 
                 <p className="ml-2">Rap Geek</p>
               </a>
             </Link>
